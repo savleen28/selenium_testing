@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataDriven Framework">
+
+
+
+  
+    <test name="Clear Fields Test">
+    <classes>
+      <class name="dd_tests.clearTest"/>
+     
+    </classes>
+    </test> <!-- Test -->
+    <test name="Character Test">
+    <classes>
+      <class name="dd_tests.charTest"/>
+     
+    </classes>
+    </test> <!-- Test -->
+    <test name="Format Test">
+    <classes>
+      <class name="dd_tests.formatTest"/>
+     
+    </classes>
+    </test> <!-- Test -->
+    
+    <test name="Mandatory Field Test">
+    <classes>
+      <class name="dd_tests.mandFieldTest"/>
+     
+    </classes>
+    </test> <!-- Test -->
+    <test name="Submit Test">
+    <classes>
+      <class name="dd_tests.submitTest"/>
+     
+    </classes>
+ </test> <!-- Test -->
+</suite> <!-- Suite -->
